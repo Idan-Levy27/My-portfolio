@@ -2,21 +2,29 @@ import streamlit as st
 import pandas
 
 st.set_page_config(layout="wide")
+apps_info = "Below you can find some of the apps I have built in Python. " \
+            "Feel free to contact me!"
 
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/photo.png")
+    st.image("images/photo.jpeg")
 
 with col2:
     st.title("Idan Levy")
     content = """Hi, I am Idan a Python programmer"""
     st.info(content)
 
-apps_info = "Below you can find some of the apps I have built in Python. " \
-            "Feel free to contact me!"
+empty_1, center_col, empty_2 = st.columns([1, 4, 1])
 
-st.subheader(apps_info)
+with empty_1:
+    st.write(' ')
+
+with center_col:
+    st.subheader(apps_info)
+
+with empty_2:
+    st.write(' ')
 
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
@@ -28,6 +36,8 @@ with col3:
         st.write(row["description"])
         st.image("images/" + row["image"])
         st.write(f"[Source Code]({row['url']})")
+        if row["title"] == "Todo App":
+            st.write("Check out this [link](https://idan-levy27-my-todolist-web-todo-webapp-qfl4zp.streamlit.app/)")
 
 with col4:
     for index, row in df[10:].iterrows():
