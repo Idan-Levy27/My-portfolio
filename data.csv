@@ -1,6 +1,6 @@
 title;description;url;image
 Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://github.com/Idan-Levy27/My_TodoList_web;1.png
-Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;Coming Soon;2.png
+Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/Idan-Levy27/My-portfolio;2.png
 PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://github.com/Idan-Levy27/PDF-Templates.git;3.png
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/Idan-Levy27/invoice_generation;4.png
 Positive News Site;A website that gets data from a news API and uses sentiment analysis to publish only positive news.;Coming Soon;5.png
