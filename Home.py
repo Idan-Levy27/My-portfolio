@@ -20,7 +20,7 @@ with col2:
                  which I always find to be the most rewarding experiences.
                  My high ambition to thrive in a team environment makes me a great team player, 
                  and I'm always ready to learn and take on new challenges."""
-    st.write(content)
+    st.info(content)
 
 empty_1, center_col, empty_2 = st.columns([1, 4, 1])
 
