@@ -16,7 +16,7 @@ with col2:
               algorithms through large code bases in C, C#, Python, and Java. Skilled in source code control tools 
               and proficient in data analysis and machine learning concepts. Demonstrated ability to work well in a team 
               environment and quickly learn new technologies"""
-    st.info.subheader(content)
+    st.info(content)
 
 empty_1, center_col, empty_2 = st.columns([1, 4, 1])
 
