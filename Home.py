@@ -12,10 +12,15 @@ with col1:
 
 with col2:
     st.title("Idan Levy")
-    content = """Hi, I am Idan Levy! Highly motivated software developer with experience developing and optimizing 
-              algorithms through large code bases in C, C#, Python, and Java. Skilled in source code control tools 
-              and proficient in data analysis and machine learning concepts. Demonstrated ability to work well in a team 
-              environment and quickly learn new technologies"""
+    content = """* Data Analyst proficient with Python (including libraries: Pandas, Numpy).
+                 * Proficiency with Exploratory Data Analysis, Data Visualization, Statistics, Data Science and Machine Learning with Python.
+                 * Experience with BI tools such as Tableau and Qlik Sense, and databases (SQL, MongoDB) including writing complex queries.
+                 * I developed 8 projects using technologies such as Python (Pandas, Numpy), Tableau, and Qlick Sense.
+                 * Ability to collect, organize, and analyze significant information with attention to detail and accuracy.
+                 * Self-learner, multi-tasker, and Independent with excellent analytical and research skills.
+                 * Problem solver combined with strong communication and interpersonal skills.
+                 * B.Sc. in Computer and Information Science (specialization in Big Data)
+                 * English – fluent."""
     st.info(content)
 
 empty_1, center_col, empty_2 = st.columns([1, 4, 1])
