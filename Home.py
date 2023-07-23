@@ -8,20 +8,27 @@ apps_info = "Below you can find some of the apps I have built in Python. " \
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/photo.jpeg")
+    st.image("images/photo.jpg")
 
 with col2:
     st.title("Idan Levy")
-    content = """* Data Analyst proficient with Python (including libraries: Pandas, Numpy).
-                 * Proficiency with Exploratory Data Analysis, Data Visualization, Statistics, Data Science and Machine Learning with Python.
-                 * Experience with BI tools such as Tableau and Qlik Sense, and databases (SQL, MongoDB) including writing complex queries.
-                 * I developed 8 projects using technologies such as Python (Pandas, Numpy), Tableau, and Qlick Sense.
-                 * Ability to collect, organize, and analyze significant information with attention to detail and accuracy.
-                 * Self-learner, multi-tasker, and Independent with excellent analytical and research skills.
-                 * Problem solver combined with strong communication and interpersonal skills.
-                 * B.Sc. in Computer and Information Science (specialization in Big Data)
-                 * English – fluent."""
-    st.info(content)
+    bullet_1 = "* Data Analyst proficient with Python (including libraries: Pandas, Numpy)."
+    bullet_2 = "* Proficiency with Exploratory Data Analysis, Data Visualization, Statistics," \
+               "Data Science and Machine Learning with Python."
+    bullet_3 = "* Experience with BI tools such as Tableau and Qlik Sense, and databases (SQL, MongoDB)" \
+               " including writing complex queries."
+    bullet_4 = "* I developed 8 projects using technologies such as Python (Pandas, Numpy), Tableau, and Qlik Sense."
+    bullet_5 = "* Ability to collect, organize, and analyze significant information with attention to detail and accuracy."
+    bullet_6 = "* Self-learner, multi-tasker, and Independent with excellent analytical and research skills."
+    bullet_7 = "* Problem solver combined with strong communication and interpersonal skills."
+    bullet_8 = "* B.Sc. in Computer and Information Science (specialization in Big Data)."
+    bullet_9 = "* English – fluent."
+
+    cont = bullet_1 + "\n" + bullet_2 + "\n" + bullet_3 + "\n" + bullet_4 + "\n" + bullet_5 + "\n" + bullet_6 + "\n" + \
+           bullet_7 + "\n" + bullet_8 + "\n" + bullet_9
+    print(cont)
+
+    st.info(cont)
 
 empty_1, center_col, empty_2 = st.columns([1, 4, 1])
 
