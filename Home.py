@@ -26,7 +26,6 @@ with col2:
 
     cont = bullet_1 + "\n" + bullet_2 + "\n" + bullet_3 + "\n" + bullet_4 + "\n" + bullet_5 + "\n" + bullet_6 + "\n" + \
            bullet_7 + "\n" + bullet_8 + "\n" + bullet_9
-    print(cont)
 
     st.info(cont)
 
